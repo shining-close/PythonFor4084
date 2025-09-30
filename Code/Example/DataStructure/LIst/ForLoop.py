@@ -9,10 +9,11 @@ for value in data:
 
 print("\n")
 
+data2 = [2.71, 2.14, 1.67, 1.62, ]
 # Find the largest item and it's index
 largest_pos = 0
 
-for i in range(1, len(data)):
+for i in range(1, len(data)):   # Start from 1 and end at 3, not 4
     if data[i] > data[largest_pos]:
         largest_pos = i
 

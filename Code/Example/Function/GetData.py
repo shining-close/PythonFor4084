@@ -28,3 +28,13 @@ def main():
     message(username, age)
 
 main()
+
+"""
+Enter your user name: guan
+Enter your age: 25
+Enter your user name: liu
+Enter your age: 9
+guan + 25
+('liu', 9)
+Hello guan
+"""
