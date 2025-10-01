@@ -73,6 +73,11 @@ def removeItem(diff_list1):
    print(f"After remove: {diff_list6}")
    print("\n")
 
+# Remove the last element 1.4
+def popLast(list):
+    diff_list = list.pop()
+    print(diff_list)
+
 
 def main():
     diff_list1 = [1, 'orange', [3, 4, 5], 6, 7, 8, 'blue', 1.4]

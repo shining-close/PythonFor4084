@@ -24,7 +24,7 @@ def sortList():
 
         line = input("Enter a number (blank line to quit): ")
 
-    # sort 降序的方式输出 含有参数reverse=True
+    # sort 降序的方式输出 含有参数reverse=True表示降序False表示升序
     values.sort(reverse=True)  
 
     for v in values:

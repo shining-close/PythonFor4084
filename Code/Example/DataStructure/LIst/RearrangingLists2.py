@@ -16,6 +16,7 @@ print(try2) # [12, 23, 34, 45]
 try2.sort(reverse=True)
 print(try2) # [43, 32, 23, 12]
 
+# sorted()函数，对原始列表不作修改，返回一个新的已排序列表
 try3 = sorted(try2)
 print(try2) # [43, 32, 23, 12]
 print(try3) # [12, 23, 32, 43]
