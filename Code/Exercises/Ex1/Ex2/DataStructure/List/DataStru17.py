@@ -19,3 +19,12 @@ while select != 'no':
 
 print(f"Totally entered {len(name_list)} names.")
 
+'''
+Three names: Bob Alex Kelvin
+Want to enter a new name? (yes/no) yes
+The new name: Harley
+Want to enter another name? (yes/no) yes
+The new name: Henry
+Want to enter another name? (yes/no) no
+Totally entered 5 names.
+'''

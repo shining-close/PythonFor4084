@@ -4,7 +4,7 @@ import random
 number1 = random.random()
 # Select a random floating-point number between 0 and 1
 number1 = number1*100
-print("\n",number1, "\n")
+print(number1, "\n")
 
 
 # Creates two random integers within two the choosing range 

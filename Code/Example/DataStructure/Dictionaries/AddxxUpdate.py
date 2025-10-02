@@ -71,7 +71,7 @@ print('按键排序后结果', a2)
 print('结果转为字典格式', dict(a1))
 print('结果转为字典格式', dict(a2))
 a3 = sorted(a.values())
-print(a3)
+print(a3)   # [0, 3, 34, 89]
 
 '''
 按值排序后结果 [('b', 0), ('a', 3), ('d', 34), ('c', 89)]

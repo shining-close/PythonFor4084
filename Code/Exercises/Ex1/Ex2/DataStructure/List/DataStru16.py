@@ -27,6 +27,15 @@ if num in list:
 else:
     print(f"That's not in the list")
 
+'''
+123
+234
+345
+456
+Enter a new number: 46
+You should enter a THREE-digit number: 234
+The position of 234 in list is 1
+'''
     
 
 """
