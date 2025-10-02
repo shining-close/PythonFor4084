@@ -12,3 +12,11 @@ def try1(r, n):
     return s
 
 sumGeometric(2, 3, 10)
+
+def modify_value(x):
+    x += 10
+    print(f"Value inside function: {x}")
+    return x
+value = 20
+modify_value(value)
+print(f"Value after function call: {value}")
