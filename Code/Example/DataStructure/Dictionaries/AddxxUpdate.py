@@ -44,6 +44,38 @@ else:
 
 y = 3
 if y in results.values():
-    print("At least one of the value in results is:", y)  # At least one of the value in results is: pass
+    print("At least one of the value in results is:", y)  # At least one of the value in results is: 3
 else:
     print("None of the value in results are:", y)
+
+# 字典删除
+# 使用del语句
+d = {'a': 1, 'b': 2}
+del d['a']
+print(d)
+
+# 使用pop方法
+d = {'a': 1, 'b': 2}
+value = d.pop('a')
+print(d)
+
+# 排序(不能直接用sorted, 不然出来的会是列表)
+# 字典排序
+a = {'a': 3, 'c': 89, 'b': 0, 'd': 34}
+# 按照字典的值进行排序
+a1 = sorted(a.items(), key=lambda x: x[1])
+# 按照字典的键进行排序
+a2 = sorted(a.items(), key=lambda x: x[0])
+print('按值排序后结果', a1)
+print('按键排序后结果', a2)
+print('结果转为字典格式', dict(a1))
+print('结果转为字典格式', dict(a2))
+a3 = sorted(a.values())
+print(a3)
+
+'''
+按值排序后结果 [('b', 0), ('a', 3), ('d', 34), ('c', 89)]
+按键排序后结果 [('a', 3), ('b', 0), ('c', 89), ('d', 34)]
+结果转为字典格式 {'b': 0, 'a': 3, 'd': 34, 'c': 89}
+结果转为字典格式 {'a': 3, 'b': 0, 'c': 89, 'd': 34}
+'''

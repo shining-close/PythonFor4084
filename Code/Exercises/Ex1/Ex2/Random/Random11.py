@@ -30,3 +30,13 @@ else:
         print("Correct")
     else:
         print("You lose")
+
+'''
+Guess a number: 3
+Well done
+-----------
+Guess a number: 4
+Your number is too high
+Guess a new number: 2
+You lose
+'''

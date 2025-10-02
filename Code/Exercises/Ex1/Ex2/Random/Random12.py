@@ -26,4 +26,11 @@ Guess a colour: red
 I bet you are WHITE with envy
 Try once again: white
 Well done
+---------------------
+Guess a colour: red
+I bet you are GREEN with envy
+Try once again: red
+I bet you are GREEN with envy
+Try once again: green
+Well done
 '''
