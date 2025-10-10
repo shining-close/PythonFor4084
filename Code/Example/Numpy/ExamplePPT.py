@@ -47,3 +47,8 @@ array5 = array4.copy()
 print(array5)
 array4[0] = 0
 print(array5)
+
+print("a*b")
+a = np.arange(4) #[1,2,3,4]
+b = np.arange(4,8)#[4,5,6,7]
+print(a * b)
